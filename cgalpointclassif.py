@@ -15,7 +15,7 @@ import argparse
 # Get input parameters
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--inCloud", type=str, required=True, help="Input shapefile")
-parser.add_argument('-l','--classes', nargs='+', help='<Required> Set flag', required=True)
+parser.add_argument('-l','--classes', nargs='+', help='<Required> Set flag', required=False)
 parser.add_argument('-f','--fixply',  type=str, 
                     help='fix cc-generated fields - enter the field name, typically scalar_label',
                     required=False, default=None)
@@ -51,30 +51,6 @@ def fixply(incloud, outcloud, field='scalar_label'):
     
     ar = np.int32(ar)
     
-#    ar[ar==1]=0
-#
-#    ar[ar==2]=1
-#
-#    ar[ar==3]=2
-#
-#    ar[ar==4]=3
-    
-    # All this modifies the original data
-    new = pf['vertex']
-    new.properties = ()
-    new.data.dtype.names = ['x', 'y', 'z', 
-                            'red', 'green', 'blue',
-                            'nx', 'ny', 'nz',  'label']
-    new.properties = (PlyProperty('x', 'double'),
-                       PlyProperty('y', 'double'), 
-                       PlyProperty('z', 'double'), 
-                       PlyProperty('red', 'uchar'), 
-                       PlyProperty('green', 'uchar'), 
-                       PlyProperty('blue', 'uchar'), 
-                       PlyProperty('nx', 'double'), 
-                       PlyProperty('ny', 'double'), 
-                       PlyProperty('nz', 'double'), 
-                       PlyProperty('label', 'int'))
     
     pf.elements[0].data['label']=ar
     

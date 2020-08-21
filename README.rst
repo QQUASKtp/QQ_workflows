@@ -77,10 +77,17 @@ Next, one of these which go a little further in terms of processing outputs and 
 The remaining notebooks are related to generating mapping products or information for environmental monitoring. The details are in the notebooks themselves and are largely written in python:
 
 - Crop_seg_pixel_stat_example.ipynb
+  Segment crop plots and calculate indices related to health/vigour.
 
-- Aerial_imagery_landcover/Object_based_landcover.ipynb
+- Aerial_imagery_landcover/Object_based_landcover.ipynb 
+  Small example of ML-based land cover mapping using object and pixel based methods. Brief introduction to grid searching parameters     
 
 - Point_Cloud_Classification_for_urban_mapping.ipynb
+  Calculate point cloud attributes and using machine learning to classify a built up area. 
+
+- Point_Cloud_Classification_for_lcover_mapping.ipynb 
+  Large files, will require a powerful computer
+  Calculate point cloud attributes and using machine learning to classify large SfM and LiDAR datasets. 
 
 
 
