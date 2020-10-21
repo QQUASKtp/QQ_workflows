@@ -84,7 +84,7 @@ def _std_huff(inArray, outArray,  angl, valrange, interval, rgt):
 
     return outArray
 
-def cropseg(inRas, outShp, edge='canny', sigma=2, 
+def houghseg(inRas, outShp, edge='canny', sigma=2, 
                thresh=None, ratio=2, n_orient=6, n_scale=5, hArray=True, vArray=True,
                valrange=1, interval=10, band=2,
                min_area=None):
