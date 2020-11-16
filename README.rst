@@ -94,6 +94,10 @@ Calculate point cloud attributes and using machine learning to classify a built 
 Large files, will require a powerful computer!
 Calculate point cloud attributes and using machine learning to classify large SfM and LiDAR datasets.
 
+5. Terrain_hydro.ipynb
+
+The generation of land surface parameters from a DTM.
+
 Beyond these, there are other workflows encountered during the project which will be uploaded here - so keep an eye out for changes.
 They will have an ipynb extension of course. 
 
