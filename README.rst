@@ -25,7 +25,7 @@ It is recommened these are installed via conda environments also (excluding OSSI
 
 MicMac Sfm scripts
 
-https://github.com/QQUASKtp/UAS_SfM
+https://github.com/Ciaran1981/Sfm
 
 
 Geospatial-learn
@@ -63,7 +63,7 @@ Order of use
 
 If using this material for training / familiarisation purposes start by looking at the Sfm_guide.pdf as the contains a detailed account of the software/libs used herein. 
 
-There is both proprietary and open source GUI-based workflows in the `documentation <https://drive.google.com/drive/folders/1rE6SFssSFaCPghEYaHHSnSRIGJ5pwIqq?usp=sharing>`_ and for those who favour this, please look at those. 
+There is both proprietary and open source GUI-based workflows in the `documentation <https://drive.google.com/drive/folders/1gtK0wh7qD22FvruFi-DlZvXfw2S5F4AV?usp=sharing>`_ and for those who favour this, please look at those. 
 
 
 If you've had enough of that, the Sfm_command_line notebook covers all the basics of scripts use and is probably best first.
