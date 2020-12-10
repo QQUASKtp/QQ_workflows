@@ -25,7 +25,7 @@ It is recommened these are installed via conda environments also (excluding OSSI
 
 MicMac Sfm scripts
 
-https://github.com/Ciaran1981/Sfm
+See the QQ UAS_Sfm repo
 
 
 Geospatial-learn
